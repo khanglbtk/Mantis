@@ -25,7 +25,7 @@ public struct CropToolbarConfig {
      I haven't figured out a correct way to set button title color for this scenario
      */
     public var backgroundColor: UIColor = .black
-    public var foregroundColor: UIColor = .white
+    public var foregroundColor: UIColor = .systemOrange
 
     public var toolbarButtonOptions: ToolbarButtonOptions = .default
     
