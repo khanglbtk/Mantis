@@ -98,7 +98,7 @@ public final class CropToolbar: UIView, CropToolbarProtocol {
             return button
         }
         
-        let doneText = LocalizedHelper.getString("Mantis.Done", value: "Done")
+        let doneText = LocalizedHelper.getString("Mantis.Done", value: "Crop")
         let button = createOptionButton(withTitle: doneText, andAction: #selector(crop))
         button.accessibilityIdentifier = "DoneButton"
         button.accessibilityLabel = doneText
